@@ -9,7 +9,7 @@ module.exports = {
     clean: true
   },
   plugins: [new HtmlWebpackPlugin({ template: './client/src/index.html' })],
-  modules: {
+  module: {
       rules: [
           {
               test: /\.jsx?$/,
